@@ -1,12 +1,25 @@
-:root {
-    --color-bg: #282828;
-    --color-fg: #EADBB2;
-    --color-link: #8F9191;
-    --color-link-visited: #668F8B;
-    --color-link-hover: #FA7921 ;
+#my_video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
 }
 
-html, body {
+:root {
+  --color-bg: #282828;
+  --color-fg: #EADBB2;
+  --color-link: #8F9191;
+  --color-link-visited: #668F8B;
+  --color-link-hover: #FA7921;
+}
+
+html,
+body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: "Fira Code";
